@@ -40,10 +40,10 @@
 
 <?php
 // aqui fazemos a verificação//
-//o 127.0.0.1 é o endereço local do seu server, isso serve para todos os servidores, seria mais ou menos como um localhost //
+
 //verifica se o cliente clicou no botao//
   if(isset($_POST['email'])){  
-     $email = addslashes ($_POST['email']); // TA VENDO QUE AQUI ESTA MINUSCULO, ISSO PQ LÁ NO USUSARIO NÓS ATRIBUIMOS 
+     $email = addslashes ($_POST['email']);  
       $senha = addslashes ($_POST['senha']);
       //verifica se esta vazio
       if(!empty($email) && !empty($senha))
@@ -59,7 +59,7 @@
         }
       else{
           
-       echo "Erro:".$u->$msgErro; // esse cara ai server para passar um msg // que está dentro do class
+       echo "Erro:".$u->$msgErro; 
       }
   }
 
