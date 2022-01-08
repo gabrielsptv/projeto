@@ -43,7 +43,7 @@ if ($valor == 'alteracao') {require_once 'alteracao.php';}{
     
 }
 
-if ($valor == '') {require_once 'panel.php';}
+if ($valor == '') {require_once 'painel.php';}
 
 ?>
 
