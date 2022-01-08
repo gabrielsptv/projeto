@@ -265,7 +265,7 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id_usuario != "") {
                                                 <td><?php echo $rs->ESTADO; ?></td>
                                                 <td><center>
                                             <a href="?act=upd&id_usuario=<?php echo $rs->id_usuario; ?>" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
-                                            <a href="?act=del&id_usuario=<?php echo $rs->id_usuario; ?>" class="btn btn-danger btn-xs" ><span class="glyphicon glyphicon-remove"></span> Excluir</a>
+                                            <a href="/dev/projeto/projetinho/painel/users.php?act=del&id_usuario=<?php echo $rs->id_usuario; ?>" class="btn btn-danger btn-xs" ><span class="glyphicon glyphicon-remove"></span> Excluir</a>
                                         </center>
                                         </td>
                                         </tr>
