@@ -40,10 +40,10 @@
 
 <?php
 // aqui fazemos a verificação//
- 
+
 //verifica se o cliente clicou no botao//
   if(isset($_POST['email'])){  
-     $email = addslashes ($_POST['email']); 
+     $email = addslashes ($_POST['email']);  
       $senha = addslashes ($_POST['senha']);
       //verifica se esta vazio
       if(!empty($email) && !empty($senha))
@@ -59,7 +59,7 @@
         }
       else{
           
-       echo "Erro:".$u->$msgErro; // esse cara ai server para passar um msg // que está dentro do class
+       echo "Erro:".$u->$msgErro; 
       }
   }
 
