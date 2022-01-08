@@ -4,7 +4,7 @@ include("./conexao.php");
 Class usuario
 { 
 	private $pdo;
-	public $msgErro = ""; //tudo ok
+	public $msgErro = ""; 
 
 
 
